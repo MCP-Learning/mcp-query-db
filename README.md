@@ -32,12 +32,17 @@ mcp-farming-demo/
    cd mcp-query-db  
    ```  
 
-2. **Generate synthetic data**:  
+2. **Create the database and tables**:  
+   ```bash  
+   python3 scripts/generate_db.py  
+   ```  
+
+3. **Generate synthetic data**:  
    ```bash  
    python3 scripts/generate_data.py  
    ```  
 
-3. **Query the database**:  
+4. **Query the database**:  
    Use [DB Browser for SQLite](https://sqlitebrowser.org/ ) to explore `data/farming.db`.  
 
 ---
